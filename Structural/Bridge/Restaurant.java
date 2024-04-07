@@ -15,5 +15,8 @@ public abstract class Restaurant {
         makeCrust();
         addSauce();
         addTopping();
+        pizza.assemble();
+        pizza.qualityCheck();
+        System.out.println("Order in Process!");
     }
 }
