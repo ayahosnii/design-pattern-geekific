@@ -3,7 +3,7 @@ package Bridge;
 public class Main {
     public static void main(String[] args) {
         // Create an American style pizza
-        Pizza americanPizza = new PepperoniPizza();
+        Pizza americanPizza = new VegetarianPizza();
         Restaurant americanRestaurant = new AmericanRestaurant(americanPizza);
 
         // Prepare the American style pizza
